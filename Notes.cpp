@@ -1,5 +1,5 @@
-//*Important Method
-//!Deprecated method
-//?Should i use it?
-//TODO : refactor it
-//@param myparam The parameter
+//*Important Method (Green)
+//!Deprecated method (Red)
+//?Should i use it? (Blue)
+//TODO : refactor it (Orange)
+//@param myparam The parameter (Blue)
