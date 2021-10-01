@@ -26,7 +26,7 @@ Links [Visit me](https://www.linkedin.com/in/jaydeepyadav "Jaydeep Yadav")
 Images [Its an Image](https://www.linkedin.com/in/jaydeepyadav "Jaydeep Yadav")
 
 
-![Tux, the Linux mascot](https://github.com/Jaydeep-Yadav/Codes/new/main/tux.png)
+![Tux, the Linux mascot](tux.png)
 
 Using `for` loop
 
