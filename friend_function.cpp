@@ -19,7 +19,7 @@ class sample{
 
 sample sum1(sample s1,sample s2){
     sample s3;
-    return s1.a+s2.a;
+    s3.a=s1.a+s2.a;
     return s3;
 }
 
