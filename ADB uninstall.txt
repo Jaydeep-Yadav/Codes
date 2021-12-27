@@ -1,0 +1,32 @@
+	Uninstall System Apps from ADB
+1. Enable Developer options on the phone
+2. Enable USB Debugging
+3. Download Platform Tools
+4. Find the package name of the app to uninstall
+
+adb shell – to open an ADB shell
+pm list packages – to list all of the currently installed packages
+
+pm list packages | grep <OEM/Carrier/App Name>
+
+5. Use the Android app “Package Name Viewer” on your phone to find out the package name of any installed app.
+
+pm uninstall -k --user 0 package_name
+
+Example - pm uninstall -k --user 0 com.google.android.youtube
+
+6. You will get a confirmation of a successful uninstall in the form of a “Success” response.
+
+	Re-install a previously removed app using ADB
+	
+adb shell
+
+pm install-existing package-name
+Example - pm install-existing com.google.android.youtube
+
+
+______________________________________________________________________
+______________________________________________________________________
+Apps removed by me
+
+Getapps - com.xiaomi.mipicks
